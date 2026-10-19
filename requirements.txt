@@ -1,0 +1,8 @@
+pypdf
+numpy
+pandas
+sentence-transformers
+anthropic
+openai
+python-dotenv
+jupyter
