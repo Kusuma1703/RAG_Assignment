@@ -10,8 +10,16 @@ All code is in **[`RAG_Baseline_vs_Reranking.ipynb`](RAG_Baseline_vs_Reranking.i
 ## Run
 ```bash
 pip install -r requirements.txt
-cp .env.example .env      # fill in your API credentials
 jupyter notebook RAG_Baseline_vs_Reranking.ipynb
+```
+
+Create a `.env` file with credentials for **one** provider (it is auto-detected):
+```
+AZURE_OPENAI_API_KEY=...
+AZURE_OPENAI_ENDPOINT=...
+AZURE_OPENAI_API_VERSION=...
+AZURE_OPENAI_CHAT_DEPLOYMENT=...
+# or OPENAI_API_KEY=...   or ANTHROPIC_API_KEY=...
 ```
 
 ## Notebook contents
